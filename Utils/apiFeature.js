@@ -1,5 +1,5 @@
 import {ethers} from "ethers";
-import Web3Modial from "web3modal";
+import Web3Modal from "web3modal";
 
 import { ChatAppAddress,ChatAppABI } from "@/Context/constants";
 
