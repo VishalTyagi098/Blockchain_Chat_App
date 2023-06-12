@@ -1,7 +1,7 @@
 import {ethers} from "ethers";
 import Web3Modal from "web3modal";
 
-import { ChatAppAddress,ChatAppABI } from "@/Context/constants";
+import { ChatAppAddress, ChatAppABI } from "../Context/constants";
 
 // Check if we are connected to metamask or not
 export const CheckIfWalletConnected = async()=>{
