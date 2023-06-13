@@ -61,7 +61,7 @@ const NavBar = () => {
                 key={i + 1}
                 className={`${Style.NavBar_box_right_menu_items} ${
                   active == i + 1 ? Style.active_btn : ""
-                }}`}
+                }`}
               >
                 <Link
                   className={Style.NavBar_box_right_menu_items_link}
@@ -131,7 +131,7 @@ const NavBar = () => {
             <Image src={images.open} alt="open" width={30} height={30}/>
           </div>
 
-          
+
         </div>
       </div>
     </div>
