@@ -1,9 +1,27 @@
-import React from 'react'
+import React,{useState,useContext} from "react";
+import Image from "next/image";
 
-const Model = () => {
-  return (
-    <div>Model</div>
-  )
-}
+// INTERNAL IMPORT
+import Style from './Model.module.css'
+import images from '../../assets';
+import { ChatAppContext } from "../../Context/ChatAppContext";
+import {Loader} from "../index"
 
-export default Model
+const Model = ({
+  openModel,
+  title,
+  head,
+  info,
+  smallInfo,
+  images,
+  functionName,
+}) => {
+  
+
+
+
+
+  return <div>Model</div>;
+};
+
+export default Model;
